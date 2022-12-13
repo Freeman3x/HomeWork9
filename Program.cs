@@ -11,9 +11,9 @@ ShowNumbers(num);
 */
 
 //Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N
-/*int ShowNumbersMN(int n,int m)
+/*int SumNumbersMN(int n,int m)
 {
-    if(Math.Max(n,m) != Math.Min(n,m)) return ShowNumbersMN(Math.Max(n,m),Math.Min(n,m)+1)+  Math.Min(n,m);
+    if(Math.Max(n,m) != Math.Min(n,m)) return SumNumbersMN(Math.Max(n,m),Math.Min(n,m)+1)+  Math.Min(n,m);
     else return 0;
 }
 
@@ -21,7 +21,7 @@ Console.WriteLine("Input N: ");
 int num_n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input M: ");
 int num_m = Convert.ToInt32(Console.ReadLine());
-int res = ShowNumbersMN(num_n,num_m) + Math.Max(num_m,num_n);
+int res = SumNumbersMN(num_n,num_m) + Math.Max(num_m,num_n);
 Console.WriteLine(res);
 */
 
